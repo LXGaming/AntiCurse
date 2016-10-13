@@ -1,0 +1,9 @@
+name: ${project.artifactId}
+main: io.github.lxgaming.anticurse.AntiCurse
+version: ${project.version}
+authors: [LX_Gaming]
+commands:
+  anticurse:
+    description: List Commands.
+    usage: /<command>
+permissions:
