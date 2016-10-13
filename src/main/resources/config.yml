@@ -1,0 +1,4 @@
+AntiCurse:
+  PlayerCurseEvent:
+    Enable: true
+    Message: '&4[Anti-Curse] &8Please do not curse!'
