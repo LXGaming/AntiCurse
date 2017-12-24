@@ -21,6 +21,7 @@ configurations {
         if (project.tasks.findByName("signJar")) {
             return finalizedBy(signJar)
         }
+
         return doLast {
             println("========== [WARNING] ==========")
             println()
@@ -51,6 +52,7 @@ jar {
             if (it.isDirectory()) {
                 return it
             }
+
             return zipTree(it)
         }
     }
